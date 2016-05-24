@@ -19,3 +19,11 @@ github_username:  kingmidasclique
 
 # Build settings
 markdown: kramdown
+
+collections:
+  tracks:
+    output: true
+    permalink: /track/:slug/
+  albums:
+    output: true
+    permalink: /album/:slug/

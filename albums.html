@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="albums">
+
+  <header>
+    <h1>Albums</h1>
+  </header>
+
+  <ul>
+    {% assign albums = site.albums | sort: 'weight' %}
+    {% for album in albums %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ album.url | prepend: album.baseurl }}">{{ album.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>

@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="tracks">
+
+  <header>
+    <h1>Tracks</h1>
+  </header>
+
+  <ul>
+    {% assign tracks = site.tracks | sort: 'weight' %}
+    {% for track in tracks %}
+      <li>
+        <h2>
+          <a class="post-link" href="{{ track.url | prepend: track.baseurl }}">{{ track.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
+
+</div>
