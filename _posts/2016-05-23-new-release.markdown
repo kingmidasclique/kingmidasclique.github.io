@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Yet Another Post!"
-date:   2016-05-24 13:26:00 -0500
+title:  "Another Post!"
+date:   2016-05-13 13:26:00 -0500
 categories: release
 ---
 Sample post for a new release.
