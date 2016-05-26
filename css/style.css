@@ -2,7 +2,7 @@ html, body {
   height: 100%;
 }
 body {
-  background-image: url('/img/king-midas-clique.jpg');
+  background-image: url('/img/duo.jpg');
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
@@ -14,7 +14,7 @@ body {
 .body-wrap {
   min-height: 100%;
   height: auto;
-  background-color: rgba(0, 0, 0, .85);
+  background-color: rgba(0, 0, 0, .75);
 }
 .site-header {
   border: 0;
