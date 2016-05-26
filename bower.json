@@ -1,0 +1,22 @@
+{
+  "name": "kingmidasclique.com",
+  "homepage": "midasclique.com",
+  "authors": [
+    "Richard Robinson <richardrobinsonx@gmail.com>"
+  ],
+  "description": "King Midas Clique web site",
+  "main": "",
+  "license": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "fontawesome#^4.6.3",
+    "pure": "^0.6.0"
+  }
+}
