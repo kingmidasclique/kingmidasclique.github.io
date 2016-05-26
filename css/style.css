@@ -30,3 +30,10 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
+/* Landing. TODO: Provide selector class for front/landing */
+.pure-menu .pure-menu-heading {
+  color: #FFF;
+}
+.pure-menu li a i.fa {
+  margin-right: 10px;
+}
