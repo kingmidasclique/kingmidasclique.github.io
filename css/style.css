@@ -2,13 +2,6 @@ html, body {
   height: 100%;
 }
 body {
-  background-image: url('/img/duo.jpg');
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: top center;
   background-color: #000;
 }
 .page-wrapper {
@@ -44,7 +37,6 @@ h1.site-heading {
   font-size: 32px;
   letter-spacing: 5px;
   text-align: center;
-  margin: 50px 0;
 }
 .pure-menu-heading,
 h2
@@ -64,10 +56,7 @@ h2
 .cta-group {
   color: #666;
   max-width: 800px;
-  /*margin: 0 auto;*/
-  position: absolute;
-  top: 0; bottom: 0; left: 0; right: 0; margin: auto;
-  max-height: 200px;
+  margin: 0 auto;
 }
 .cta {
   1px solid #666;
@@ -80,4 +69,26 @@ h2
 }
 .cta i.fa {
   margin-right: 10px;
+}
+
+@media(max-width: 1023px) {
+  .cta {
+    border: 1px solid #444;
+  }
+}
+@media(min-width: 1025px) {
+  .cta-group {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0; margin: auto;
+    max-height: 200px;
+  }
+  body {
+    background-image: url('/img/duo.jpg');
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top center;
+  }
 }
